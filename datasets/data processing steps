@@ -1,0 +1,14 @@
+The json files should contain details of movies: 
+(1) with a released date between 2000 to 2024, 
+(2) runtime equal to or over 60 mins. 
+
+RUNTIME:
+Need to check the values of runtime.
+Some movies have runtime of 0s, I'm not sure if that's because there was no data from TMDb or what.
+
+Three fields can be used for topic modeling:
+（1） Overview (oneliners of movie descriptions)
+（2） Tagline (not sure if we should use it because 
+most of them are kinda cheesy and don't contain actual information about the movies? 
+maybe experiment modeling on with/without this column.
+（3） Keywords
