@@ -6,6 +6,12 @@ RUNTIME:
 Need to check the values of runtime.
 Some movies have runtime of 0s, I'm not sure if that's because there was no data from TMDb or what.
 
+First split the data into Global South/North produced with the field 'production_countries'. 
+- Global North: regions/countries Africa, Latin America and the Caribbean, Asia (excluding Israel, Japan, and South Korea), and Oceania (excluding Australia and New Zealand)
+- There might be more than 1 countries as production countries. If all countries are from North/South, categorise as it is. 
+- If it's North-South co-productions, idk what to do yet, maybe just leave them out for now. 
+
+
 Three fields can be used for topic modeling:
 （1） Overview (oneliners of movie descriptions)
 （2） Tagline (not sure if we should use it because 
